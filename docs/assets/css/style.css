@@ -1,0 +1,33 @@
+body{
+    font-family: serif, Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+ 
+
+}
+h1, h3{
+    font-family: 'Arial Black', Gadget, sans-serif;
+}
+
+section #img_ale{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    object-fit: cover;
+}
+
+.profile-image{
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    object-fit: cover;
+
+}
+
+ul,
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}

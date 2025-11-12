@@ -1,27 +1,59 @@
-body{
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.logo {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+
+
+body {
     font-family: serif, Georgia, 'Times New Roman', Times, serif;
     text-align: center;
- 
+    background-color: rgba(245, 245, 220, 0.845);
+    display: fit-content;
+    margin: 0;
+    padding: 0;
+
+
 
 }
-h1, h3{
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1,
+h3 {
     font-family: 'Arial Black', Gadget, sans-serif;
 }
 
-section #img_ale{
-    border-radius: 50%;
+section #img_ale {
+    border-radius: 10%;
     width: 150px;
     height: 150px;
     text-align: center;
     object-fit: cover;
 }
 
-.profile-image{
-    border-radius: 50%;
-    width: 150px;
-    height: 150px;
+.profile-image {
+    border-radius: 10%;
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+    max-width: 350px;
+    height: auto;
     text-align: center;
     object-fit: cover;
+    border: 3px solid rgba(153, 209, 153, 0.55);
 
 }
 
@@ -31,3 +63,81 @@ li {
     padding: 0;
     margin: 0;
 }
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgba(153, 209, 153, 0.857);
+    font-weight: bold;
+}
+
+h3 {
+    font-weight: bold;
+
+}
+
+footer {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: rgba(153, 209, 153, 0.55);
+    color: black;
+    font-weight: bold;
+}
+
+#about {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(125, 172, 5, 0.467);
+    border-radius: 20px;
+}
+
+#services {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(153, 209, 153, 0.55);
+    border-radius: 20px;
+}
+
+#testimonials {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(125, 172, 5, 0.467);
+    border-radius: 20px;
+}
+
+#sessions {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 185, 0.812);
+    border-radius: 20px;
+}
+
+#faq {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(255, 255, 185, 0.812);
+    border-radius: 20px;
+}
+
+#contact {
+    margin: 20px;
+    padding: 10px;
+    background-color: rgba(153, 209, 153, 0.55);
+    border-radius: 20px;
+}
+
+
+@media (min-width: 1200px) {
+    .container {
+      max-width: 1000px;
+      padding: 40px;
+    }
+  
+    .profile-image {
+      max-width: 400px;
+    }
+  }
+  

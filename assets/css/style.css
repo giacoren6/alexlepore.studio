@@ -3,15 +3,11 @@
     margin: 0;
     padding: 0;
 }
-
-.logo {
-    width: 500px;
-    height: 500px;
-    object-fit: cover;
-    border-radius: 10%;
-    margin-right: 10px;
+header {
+    background-color: rgba(125, 172, 5, 0.467);
+    padding: 10px 0;
+    margin-bottom: 20px;
 }
-
 
 body {
     font-family: serif, Georgia, 'Times New Roman', Times, serif;
@@ -20,6 +16,12 @@ body {
     display: fit-content;
     margin: 0;
     padding: 0;
+}
+
+.logo {
+    width: 100%;
+    height: auto;
+    max-width: 550px;
 
 
 
@@ -82,7 +84,7 @@ h3 {
 footer {
     margin-top: 20px;
     padding: 10px;
-    background-color: rgba(153, 209, 153, 0.55);
+    background-color: rgba(125, 172, 5, 0.467);
     color: black;
     font-weight: bold;
 }
